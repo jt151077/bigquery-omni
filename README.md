@@ -1,6 +1,6 @@
 # BigQuery OMNI example (with AWS S3)
 
-In this example, we are creating 2 datasets in BigQuery (one "omny" `aws_s3_data` and one regional `gcp_data`). In each dataset, we will be creating one table. The table in the `aws_s3_data` dataset will an `EXTERNAL TABLE` pointing to the original S3 bucket in AWS, while the table in `gcp_data` dataset will be a GCP `MANAGED TABLE` with a copy of the data.
+In this example, we are creating 2 datasets in BigQuery (one "omni" `aws_s3_data` and one regional `gcp_data`). In each dataset, we will be creating one table. The table in the `aws_s3_data` dataset will an `EXTERNAL TABLE` pointing to the original S3 bucket in AWS, while the table in `gcp_data` dataset will be a GCP `MANAGED TABLE` with a copy of the data.
 
 ## AWS Setup (1/2)
 
